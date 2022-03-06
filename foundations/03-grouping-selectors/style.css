@@ -1,0 +1,15 @@
+/**--stylesheet--**/
+
+.first {
+    background-color: #000;
+    color: #fff;
+}
+
+.second {
+    background-color: #fffc50;
+}
+
+button {
+    font-size: 28px;
+    font: "Helvetica", "Times New Roman", "sans-serif";
+}

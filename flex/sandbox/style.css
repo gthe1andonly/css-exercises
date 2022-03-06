@@ -1,0 +1,117 @@
+
+.flex-container {
+    display: flex;
+    background: lightgreen; 
+    border: 4px solid green ;
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.flex-container div {
+    /* background: peachpuff; */
+    /* border: 4px solid; */
+    /* height: 200px; */
+    /* padding: 10px; */
+    flex: 1;
+}
+
+.one {
+    display: flex;
+    background: lightblue;
+    border: 4px solid blue;
+    height: 150px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+.one div {
+    height: 100px;
+    border: 4px solid palevioletred;
+    background: peachpuff;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.one-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 5px;
+    
+    /* 
+     */
+}
+.one-2 div {
+    height: 75px; 
+    flex: 1;
+    border: 4px solid red;
+    background: lightpink;
+}
+
+.two {
+    display: flex;
+    gap: 10px;
+    height: 300px;
+    background: lightgreen;
+}
+
+.two div {
+   /* background: lightgreen; */
+}
+
+.two-1 {
+    height: 250px;
+    border: 4px solid red;
+    background: lightpink;
+   
+}
+
+.two-box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.two-box div{
+    height: 100px;
+    flex: 1;
+    background: lightpink;
+    border: 4px solid red;
+}
+
+.three {
+    display: flex;
+    background: lightblue;
+    border: 4px solid blue;
+    gap: 5px;
+    padding: 10px;
+}
+
+.three div {
+    height: 100px;
+}
+
+.three-1,.three-4 {
+    background: rgb(182, 97, 240);
+    border: 4px solid purple;
+    width: auto;
+}
+
+.three-2,.three-3 {
+
+}
+
+.three-box{
+    display: flex;
+    gap: 5px;
+}
+
+.three-box div {
+    border: 4px solid palevioletred;
+    background: peachpuff;
+}
